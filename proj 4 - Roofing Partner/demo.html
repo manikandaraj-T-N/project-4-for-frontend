@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Up</title>
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+
+
+    <style>
+        .counter {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            animation: countup 5s infinite;
+        }
+
+        @keyframes countup {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="counter">0</div>
+
+
+    <div class="testimonial">
+        <div class="container">
+            <div class="testimonial-inner">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="testimonial-inner-1">
+                            <img src="./assest/image/testimonial/testimonial_img01.jpg" alt="" width="100%">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="testimonial-inner-2">
+                            <p class="title">Our Testimonial</p>
+                            <h2>Some of Our Respected Happy Clients Says</h2>
+
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <p class="left-quote"><i class="fa-solid fa-quote-left"></i></p>
+                                    <p class="owl-content">
+                                        Lorem ipsum dolor amet consectetur adipisicing elit. Amet corporis minus
+                                        suscipit, molestiae accusamus voluptas reiciendis qui consectetur. Dolore
+                                        explicabo fugiat consectetur soluta atque alias temporibus architecto.
+                                    </p>
+
+                                    <div class="owl-author">
+                                        <div class="owl-author-img">
+                                            <img src="./assest/image/testimonial/author01.jpg" alt="">
+                                        </div>
+                                        <div class="owl-author-cont">
+                                            <h4>Darrwell Starford</h4>
+                                            <p>Roof Engineer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <p class="left-quote"><i class="fa-solid fa-quote-left"></i></p>
+                                    <p class="owl-content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis minus
+                                        suscipit, molestiae accusamus voluptas reiciendis qui consectetur. Dolore
+                                        explicabo fugiat consectetur soluta atque alias temporibus architecto.
+                                    </p>
+                                    <div class="owl-author">
+                                        <div class="owl-author-img">
+                                            <img src="./assest/image/testimonial/author02.jpg" alt="">
+                                        </div>
+                                        <div class="owl-author-cont">
+                                            <h4>Darrwell Starford</h4>
+                                            <p>Roof Engineer</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <p class="left-quote"><i class="fa-solid fa-quote-left"></i></p>
+                                    <p class="owl-content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis minus
+                                        suscipit, molestiae accusamus voluptas reiciendis qui consectetur. Dolore
+                                        explicabo fugiat consectetur soluta atque alias temporibus architecto.
+                                    </p>
+                                    <div class="owl-author">
+                                        <div class="owl-author-img">
+                                            <img src="./assest/image/testimonial/author03.jpg" alt="">
+                                        </div>
+                                        <div class="owl-author-cont">
+                                            <h4>Darrwell Starford</h4>
+                                            <p>Roof Engineer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <img src="./assest/image/footer/f_insta_img01.jpg" alt="">
+            <img src="./assest/image/footer/f_insta_img02.jpg" alt="">
+            <img src="./assest/image/footer/f_insta_img03.jpg" alt="">
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <img src="./assest/image/footer/f_insta_img04.jpg" alt="">
+            <img src="./assest/image/footer/f_insta_img05.jpg" alt="">
+            <img src="./assest/image/footer/f_insta_img06.jpg" alt="">
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+  const counterElement = document.querySelector('.counter');
+  let count = 0;
+
+  function updateCounter() {
+    count++;
+    counterElement.textContent = count;
+    requestAnimationFrame(updateCounter);
+  }
+
+  updateCounter();
+</script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+        integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"
+        integrity="sha512-IUpSKpPKlXuPokiYONEZUG/H4c1rw4VmbGdnBKB18qm/9jbnxQ4Rv5Da9qEmB3hIa3k4DxRNoZfB6FTpERnuOQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+
+</html>
